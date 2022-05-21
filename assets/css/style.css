@@ -1,0 +1,233 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+                    /*--------------------- hepling class ---------------------------*/
+a:link,a:visited {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.row,
+.row::after,
+.row::before {
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.text-center{
+	text-align: center;
+}
+div[class^="col"] {
+	float: left;
+	padding: 0 10px;
+}
+.col1{
+	width: calc(100% * 1 / 12);
+}
+.col6 {
+	width: calc(100% * 6 / 12);
+	/* width: 50%; */
+}
+.col7 {
+    width: calc(100% * 7 / 12);
+}
+.col5 {
+	width: calc(100% * 5 / 12);
+}
+
+.col3 {
+	width: calc(100% * 3 / 12);
+}
+.col4 {
+	width: calc(100% * 4 / 12);
+}
+
+.col9 {
+	width: calc(100% * 9 / 12);
+}
+.col10 {
+	width: calc(100% * 10 / 12);
+}
+.ml-offset-1{
+	margin-left: calc(100% * 1 / 12);
+}
+.mb-70 {
+	margin-bottom: 70px;
+}
+.mb-80{
+	margin-bottom: 80px;
+}
+.mb-90 {
+	margin-bottom: 90px;
+}
+.pr-col2{
+	padding-right: calc(100% * 2 / 12)!important;
+}
+.text-white{
+	color: #fff;
+}
+             /* --------------------header section css start-------------------- */
+.header {
+	background-color: #FCDB00;
+	padding: 60px 0 110px;
+}
+.logo{
+	margin-bottom: 130px;
+}
+.navbar li {
+	display: inline-block;
+	margin: 0 9px;
+}
+.navbar li a {
+	padding: 0 9px;
+	color: #010101;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: capitalize;
+	height: 43px;
+	margin-bottom: 70px;
+	line-height: 43px;
+	display: inline-block;
+}
+.navbar li:first-child{
+	margin-left: 0;
+}
+.navbar li:first-child a{
+	padding-left:0;
+}
+.inspier{
+	padding-top: 70px;
+	
+}
+
+.heading{
+	font-size: 32px;
+	font-weight: bold;
+	color: #010101;
+	margin-bottom: 22px;
+	font-family: 'Roboto', sans-serif;
+}
+.subheading{
+	font-size: 20px;
+	color: #313841;
+	margin-bottom: 25px;
+}
+.para{
+	color: #555555;
+	font-size: 16px;
+	margin-bottom: 40px;
+	/* line-height: 19px; */
+	font-family: 'Roboto', sans-serif;
+}
+.links li{
+	display: inline-block;
+	margin-right: 35px;
+	
+}
+.links a i{
+	font-size: 40px;
+	color: #010101;
+	
+}
+.ipad{
+	width: 360px;
+}
+                   /*--------------------- features css------------------------ */
+.features{
+	padding: 120px 0 160px;
+	
+}
+.thumbimg i{
+	font-size:40px;
+}
+.thumbinfo{
+	margin-bottom: 90px;
+	text-transform: capitalize;
+}
+                        /* ------------------footer css------------------- */
+.foot{
+	padding: 90px 0 140px;
+	background-color: #010101;
+}
+.intouch{
+	padding:0 40px;
+}
+.foot .heading{
+	color: #fcdb00;
+    margin-bottom: 25px
+}
+.foot .para{
+	color: #898989;
+	margin-bottom: 45px;
+}
+.email{
+	width: calc(100% - 165px);
+	height: 50px;
+	border-radius: 5px;
+	padding: 0 25px;
+    outline: none;
+}
+.email::placeholder{
+	color: #898989;
+	font-size: 16px;
+}	
+.submit{
+	width: 125px;
+	margin-left: 30px;
+	cursor: pointer;
+	height: 50px;
+	background-color: #fcdb00;
+	font-size: 16px;
+	color: #010101;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid #fcdb00;
+	transition: all 0.3s;
+}
+.submit:hover,
+.submit:Active,
+.submit:focus{
+	background-color: #101010;
+	color: #fcdb00;
+}
+.sicon li{
+	display: inline-block;
+	margin-right: 32px;
+}
+.sicon li a i{
+	font-size: 42px;
+	color: #fcdb00;
+	margin-bottom: 135px;
+}
+.foot li,.foot li a{
+	font-size: 16px;
+	color: #fff;
+	text-transform:capitalize;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
